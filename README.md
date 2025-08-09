@@ -1,5 +1,10 @@
 # Duffing_oscillator_simulation
 > Heng Gao  
 > Fudan University
-----
-This repository provides the simulation code for Duffing oscillators driven by white noise. Here, we mainly use Euler-Maruyama algorithm to solve the nonlinear stochastic Duffing equation.
+---
+This repository provides the simulation code for Duffing oscillators driven by white noise. Here, we mainly use Euler-Maruyama algorithm to solve the nonlinear stochastic Duffing equation, which can be written as 
+$\ddot{x}+\delta\dot{x}-x+x^3 = \sigma\cdot \dot{B}(t), \quad\quad\forall t\in [0, T],$  
+where $\sigma$ is a positive constant, $B(t)$ represents the Brownian motion, $T$ is the total time.
+
+## Usage
+Run `cablesim.m` for reproducing the experiments.
