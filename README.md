@@ -1,4 +1,4 @@
-# Duffing_oscillator_simulation
+# Duffing Oscillator Simulation
 > Heng Gao  
 > Fudan University
 ---
