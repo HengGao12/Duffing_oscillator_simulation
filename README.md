@@ -7,4 +7,4 @@ $\ddot{x}+\delta\dot{x}-x+x^3 = \sigma\cdot \dot{B}(t), \quad\quad\forall t\in [
 where $\sigma$ is a positive constant, $B(t)$ represents the Brownian motion, $T$ is the total time.
 
 ## Usage
-Run `cablesim.m` for reproducing the experiments.
+Run `duffing_driven_by_noise.m` for reproducing the experiments.
